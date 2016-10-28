@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body ng-app="sim" ng-controller="addWord">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <span>
+      <button ng-click="addWord()">Words</button>
+      <button ng-click="addPhrase()">More Words</button>
+      <button ng-click="add()">Words with Decorations</button>
+      <button ng-click="add()">More Words with Decorations</button>
+    </span>
+    <div>
+      <ul>
+        <li>{{word}}</li>
+      </ul>
+      <ul>
+        <li>{{phrase}}</li>
+      </ul>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
